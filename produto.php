@@ -31,8 +31,8 @@
 				<div class="col-xs-12 col-md-8">
 					<h5>Descrição: <?=$descricao?></h5>
 					<h5>Categoria: <?=$categoria?></h5>
-					<h5>Preço: R$ <?=$preco?></h5>
-
+					<h5>Valor aproximado: <?=$preco?></h5>
+					<h5>Contatos: <?=$preco?></h5>
 				</div>
 				
 			</div>
@@ -40,7 +40,7 @@
 		</div>
 		<div class="card-footer">
 					<a href='carrinho.php?id=$id' class='btn btn-outline-danger'>
-										Adicionar ao Carrinho
+										Solicitar orçamento
 									</a>
 			</div>
 	</div>
